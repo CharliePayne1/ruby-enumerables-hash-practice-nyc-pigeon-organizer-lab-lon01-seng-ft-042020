@@ -5,5 +5,10 @@ def nyc_pigeon_organizer(original_data)
      name.each do |name|
        new_data[name] = {}
      end
+   end
+ end
+ new_data
+ end
+ 
      
      
