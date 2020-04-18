@@ -7,7 +7,7 @@ def nyc_pigeon_organizer(original_data)
      end
      new_data[name][attribute]
    end
-   new_data[name][attribute] = sub_attribute
+   new_data[name][attribute] << sub_attribute.to_s
  end
  new_data
  end
