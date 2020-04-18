@@ -5,7 +5,9 @@ def nyc_pigeon_organizer(original_data)
      name.each do |name|
        new_data[name] = {}
      end
+     new_data[name][attribute] = []
    end
+   new_data[name][attribute] = sub_attribute
  end
  new_data
  end
